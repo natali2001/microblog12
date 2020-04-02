@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\config"
+    "\\app\\views",
+    "\\app\\views\\microposts"
   ],
+  "SelectedNode": "\\app\\views\\microposts\\index.html.erb",
   "PreviewInSolutionExplorer": false
 }
