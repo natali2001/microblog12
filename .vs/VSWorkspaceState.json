@@ -10,5 +10,9 @@
     "\\db\\migrate"
   ],
   "SelectedNode": "\\db\\migrate\\20200331182356_create_users.rb",
+    "\\app\\controllers",
+    "\\config"
+  ],
+  "SelectedNode": "\\config\\routes.rb",
   "PreviewInSolutionExplorer": false
 }
