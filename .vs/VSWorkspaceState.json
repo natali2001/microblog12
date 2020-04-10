@@ -3,7 +3,6 @@
     "",
     "\\app",
     "\\app\\controllers",
-    "\\app\\views\\users",
     "\\config"
   ],
   "SelectedNode": "\\config\\routes.rb",
