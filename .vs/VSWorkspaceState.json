@@ -2,9 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\views",
-    "\\app\\views\\microposts"
+    "\\app\\assets",
+    "\\app\\models",
+    "\\app\\views\\microposts",
+    "\\app\\views\\users",
+    "\\db",
+    "\\db\\migrate"
   ],
-  "SelectedNode": "\\app\\views\\microposts\\index.html.erb",
+  "SelectedNode": "\\db\\migrate\\20200331182356_create_users.rb",
   "PreviewInSolutionExplorer": false
 }

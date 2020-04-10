@@ -1,5 +1,13 @@
+<link rel="stylesheet" href="microposts.scss" type="text/html"/>
+<div class="creating">
 <h1>New Micropost</h1>
+  <h3>You could not add post without registration</h3>
+  <h3>Advise you  to register</h3>
+  <h4> For registration click the link below.
+</h4>
+ <%= link_to 'To register', new_user_path %>
 
-<%= render 'form', micropost: @micropost %>
+  <%= render 'form', micropost: @micropost %>
 
 <%= link_to 'Back', microposts_path %>
+</div>

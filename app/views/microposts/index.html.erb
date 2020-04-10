@@ -1,10 +1,12 @@
 <p id="notice"><%= notice %></p>
-
-<h1>Microposts</h1>
-<div class="link2">
-  <a href="http://127.0.0.1:3000/users">To watch more information about users click here.</a>
+<link rel="stylesheet" href="microposts.scss" type="text/html"/>
+<div class="tocreating">
+  <p>Did you like these posts? Do you Want to add your post?!
+  Click to the link below</p>
+  <%= link_to 'Create post', new_micropost_path %>
 </div>
-
+<div class="page">
+<h1>Microposts</h1>
 <table>
   <thead>
     <tr>
@@ -25,8 +27,7 @@
       </tr>
     <% end %>
   </tbody>
-</table>
+  
+</table></div>
 
-<br>
 
-<%= link_to 'New Micropost', new_micropost_path %>

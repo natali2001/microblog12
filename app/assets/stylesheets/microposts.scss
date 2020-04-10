@@ -1,3 +1,26 @@
 // Place all the styles related to the Microposts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body{
+    background-image:url('unnamed.jpg');
+    background-size:cover;
+}
+.tocreating {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    color: antiquewhite;
+}
+.page{
+    position:absolute;
+    left:500px;
+    color:antiquewhite;
+}
+table{
+    position:absolute
+}
+.creating{
+    position:absolute;
+    left:500px;
+    color:antiquewhite;
+}
